@@ -8,25 +8,25 @@
 
 const MEMBERS = [
   {
-    id: "001",
-    name: "Kim Chol",
-    email: "example@email.com",
-    phone: "",
-    location: "Pyongyang, DPRK",
+    id: "260629",
+    name: "MD. ASHIFUL ISLAM",
+    email: "ashifulislam629@email.com",
+    phone: "01309537684",
+    location: "Pabna, Rajshahi, Bangladesh",
   },
   {
-    id: "002",
-    name: "Jane Doe",
-    email: "jane@email.com",
-    phone: "+82 10-0000-0000",
-    location: "Seoul, South Korea",
+    id: "260621",
+    name: "RAKIBUR RAHMAM",
+    email: "idkaboutthis@email.com",
+    phone: "01614534092",
+    location: "Pabna, Rajshahi, Bangladesh",
   },
   // Add more people below, following the same pattern:
-  // {
-  //   id: "003",
-  //   name: "Full Name",
-  //   email: "email@example.com",
-  //   phone: "phone number",
-  //   location: "City, Country",
-  // },
+  {
+  id: "260640",
+  name: "MIFTAHUL ISLAM ABIR",
+  email: "IDKMANN@example.com",
+  phone: "01979322162",
+  location: "Pabna, Rajshahi, Bangladesh",
+   },
 ];
