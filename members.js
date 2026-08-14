@@ -10,14 +10,14 @@ const MEMBERS = [
   {
     id: "260629",
     name: "MD. ASHIFUL ISLAM",
-    email: "ashifulislam629@email.com",
+    email: "ashifulislam629@gmail.com",
     phone: "01309537684",
     location: "Pabna, Rajshahi, Bangladesh",
   },
   {
     id: "260621",
     name: "RAKIBUR RAHMAM",
-    email: "idkaboutthis@email.com",
+    email: "idkaboutthis@gmail.com",
     phone: "01614534092",
     location: "Brahmanbaria, Chittagong, Bangladesh",
   },
@@ -25,8 +25,16 @@ const MEMBERS = [
   {
   id: "260640",
   name: "MIFTAHUL ISLAM ABIR",
-  email: "IDKMANN@example.com",
+  email: "IDKMANN@gmail.com",
   phone: "01979322162",
   location: " Mymensingh, Mymensingh, Bangladesh",
    },
+
+
+
+
+
+
+
+  
 ];
