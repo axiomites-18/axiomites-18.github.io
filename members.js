@@ -19,7 +19,7 @@ const MEMBERS = [
     name: "RAKIBUR RAHMAM",
     email: "idkaboutthis@email.com",
     phone: "01614534092",
-    location: "Pabna, Rajshahi, Bangladesh",
+    location: "Brahmanbaria, Chittagong, Bangladesh",
   },
  
   {
@@ -27,6 +27,6 @@ const MEMBERS = [
   name: "MIFTAHUL ISLAM ABIR",
   email: "IDKMANN@example.com",
   phone: "01979322162",
-  location: "Pabna, Rajshahi, Bangladesh",
+  location: " Mymensingh, Mymensingh, Bangladesh",
    },
 ];
