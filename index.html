@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ICE-18 · PUST Batch Directory</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <p class="eyebrow">PYONGYANG UNIVERSITY OF SCIENCE AND TECHNOLOGY</p>
+      <h1 class="batch-code">ICE<span>—</span>18</h1>
+      <p class="tagline">Information &amp; Communications Engineering · Batch Directory</p>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" id="memberCount">00</span><span class="stat-label">members</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" id="countryCount">00</span><span class="stat-label">locations</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="toolbar">
+      <input type="text" id="searchInput" placeholder="Search by name, city, or contact..." class="search-input" />
+    </div>
+
+    <section id="memberGrid" class="member-grid"></section>
+
+    <p id="emptyState" class="empty-state" hidden>No batchmates match that search.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>ICE-18 · PUST — built by the batch, for the batch.</p>
+  </footer>
+
+  <script src="members.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
