@@ -21,7 +21,7 @@ const MEMBERS = [
     phone: "01614534092",
     location: "Pabna, Rajshahi, Bangladesh",
   },
-  // Add more people below, following the same pattern:
+ 
   {
   id: "260640",
   name: "MIFTAHUL ISLAM ABIR",
