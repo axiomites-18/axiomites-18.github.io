@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ICE 18th Batch | Pabna University of Science and Technology</title>
+  <meta name="description" content="Student profiles of the 18th batch, Department of Information and Communication Engineering, Pabna University of Science and Technology.">
+  <link rel="icon" href="images/logos/ice-logo.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <img class="logo" src="images/logos/pust-logo.jpeg" alt="Pabna University of Science and Technology logo">
+      <div class="titles">
+        <h1>Pabna University of Science and Technology</h1>
+        <p class="dept">Department of Information and Communication Engineering</p>
+        <p class="batch">18th Batch, <span id="count">40</span> students</p>
+      </div>
+      <img class="logo" src="images/logos/ice-logo.jpeg" alt="ICE Department logo">
+    </div>
+  </header>
+
+  <main>
+    <ul class="grid" id="grid" aria-label="Students"></ul>
+  </main>
+
+  <div class="overlay" id="overlay" hidden>
+    <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="m-name" id="dialog">
+      <button class="close" id="close" aria-label="Close profile">&times;</button>
+      <div class="m-photo" id="m-photo"></div>
+      <div class="m-body">
+        <h2 id="m-name"></h2>
+        <dl id="m-details"></dl>
+        <div class="m-nav">
+          <button type="button" id="prev">Previous</button>
+          <button type="button" id="next">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
