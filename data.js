@@ -140,15 +140,7 @@ const STUDENTS = [
     "address": "",
     "photo": "images/students/260615.jpg"
   },
-  {
-    "roll": "260616",
-    "name": "Md. Shaharia Nafiz ",
-    "blood": "B+",
-    "zilla": "Natore",
-    "phone": "01310282893",
-    "address": "",
-    "photo": "images/students/260616.jpg"
-  },
+
   {
     "roll": "260617",
     "name": " Md. Rabiul Islam Khan",
@@ -248,15 +240,7 @@ const STUDENTS = [
     "address": "",
     "photo": "images/students/260627.jpg"
   },
-  {
-    "roll": "260628",
-    "name": "Likhon Kumar Saha",
-    "blood": "A+",
-    "zilla": "Sirajganj",
-    "phone": "01300236224",
-    "address": "",
-    "photo": "images/students/260628.jpg"
-  },
+
   {
     "roll": "260629",
     "name": "Md. Ashiful Islam",
